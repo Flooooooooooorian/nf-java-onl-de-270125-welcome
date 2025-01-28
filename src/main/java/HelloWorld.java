@@ -7,13 +7,13 @@ public class HelloWorld {
         System.out.println("Hallo nf-java-onl-de-270125");
 
 
-        int myAge = 28;
+        int age = 28;
 
-        System.out.println(myAge);
+        System.out.println(age);
 
-        myAge = 35;
+        age = 35;
 
-        System.out.println(myAge);
+        System.out.println(age);
 
         String myName = "Florian";
 
@@ -23,26 +23,25 @@ public class HelloWorld {
 
         System.out.println(isFullAge);
 
-        System.out.println(myAge + 3);
-        System.out.println(myAge - 3);
-        System.out.println(myAge * 3);
-        System.out.println(myAge / 3);
+        System.out.println(age + 3);
+        System.out.println(age - 3);
+        System.out.println(age * 3);
+        System.out.println(age / 3);
 
         System.out.println("Hallo" + myName);
-        System.out.println(myName + myAge);
+        System.out.println(myName + age);
 
-        String newAge = myName + myAge;
+        String newAge = myName + age;
 
-        isFullAge = myAge == 35;
+        isFullAge = age == 35;
         System.out.println(isFullAge);
 
-        System.out.println(myAge != 35);
-        System.out.println(myAge > 18);
-        System.out.println(myAge < 18);
-        System.out.println(myAge <= 18);
+        System.out.println(age != 35);
+        System.out.println(age > 18);
+        System.out.println(age < 18);
+        System.out.println(age <= 18);
 
-        System.out.println(myAge == 36 || myName == "Florian");
-
+        System.out.println(age == 36 || myName == "Florian");
     }
 
 }
